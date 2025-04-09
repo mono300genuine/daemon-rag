@@ -1121,7 +1121,7 @@ async def post_random_daemon_insight():
         print("Bot expired - stopping background task")
         post_random_daemon_insight.stop()
         return
-    channel_id = 1358041291883020593
+    channel_id = 1358167880696594543
     #channel_id = 1356240994512670735  # Replace with your Discord channel ID
     channel = bot.get_channel(channel_id)
     
